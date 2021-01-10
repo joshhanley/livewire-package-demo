@@ -1,6 +1,6 @@
 {
     "name": "joshhanley/livewire-package-demo",
-    "description": "A demo for how to use Livewire Dusk Testbench to test a Livewire component package",
+    "description": "A demo for how to use Livewire Dusk Testbench to test a Livewire component package.",
     "license": "MIT",
     "authors": [
         {
@@ -12,5 +12,15 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LivewirePackageDemo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LivewirePackageDemo\\Tests\\": "tests/"
+        }
     }
 }
