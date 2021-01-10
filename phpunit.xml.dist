@@ -14,8 +14,11 @@
         <testsuite name="Browser">
             <directory suffix="Test.php">./tests/Browser</directory>
         </testsuite>
-        <testsuite name="Unit">
+        <!-- <testsuite name="Unit">
             <directory>./tests/Unit</directory>
-        </testsuite>
+        </testsuite> -->
     </testsuites>
+    <php>
+        <env name="APP_KEY" value="base64:fLwuhEAfUmKELmXuPYMuDEQY7t3n8okE+Fi1+ey83DI="/>
+    </php>
 </phpunit>

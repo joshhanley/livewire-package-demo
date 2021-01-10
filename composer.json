@@ -13,6 +13,9 @@
     "require": {
         "php": "^7.4"
     },
+    "require-dev": {
+        "joshhanley/livewire-dusk-testbench": "dev-main"
+    },
     "autoload": {
         "psr-4": {
             "LivewirePackageDemo\\": "src/"
@@ -21,6 +24,12 @@
     "autoload-dev": {
         "psr-4": {
             "LivewirePackageDemo\\Tests\\": "tests/"
+        }
+    },
+    "repositories": {
+        "livewire-dusk-testbench": {
+            "type": "vcs",
+            "url": "https://github.com/joshhanley/livewire-dusk-testbench"
         }
     }
 }
