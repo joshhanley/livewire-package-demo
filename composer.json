@@ -10,6 +10,12 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": {
+        "livewire-dusk-testbench": {
+            "type": "vcs",
+            "url": "https://github.com/joshhanley/livewire-dusk-testbench"
+        }
+    },
     "require": {
         "php": "^7.4"
     },
@@ -26,10 +32,11 @@
             "LivewirePackageDemo\\Tests\\": "tests/"
         }
     },
-    "repositories": {
-        "livewire-dusk-testbench": {
-            "type": "vcs",
-            "url": "https://github.com/joshhanley/livewire-dusk-testbench"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LivewirePackageDemo\\LivewirePackageDemoServiceProvider"
+            ]
         }
     }
 }
