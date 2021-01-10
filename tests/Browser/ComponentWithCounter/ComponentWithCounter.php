@@ -1,6 +1,6 @@
 <?php
 
-namespace LivewirePackageDemo\Tests\Browser\CounterCanBeUsed;
+namespace LivewirePackageDemo\Tests\Browser\ComponentWithCounter;
 
 use Livewire\Component;
 

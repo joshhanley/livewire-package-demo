@@ -20,6 +20,6 @@ class CounterComponent extends Component
 
     public function render()
     {
-        return view('lw-pkg-demo::counter');
+        return view('lw-pkg-demo::livewire.counter-component');
     }
 }
