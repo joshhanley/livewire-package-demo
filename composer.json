@@ -17,7 +17,9 @@
         }
     },
     "require": {
-        "php": "^7.4",
+        "php": "^7.4"
+    },
+    "require-dev": {
         "joshhanley/livewire-dusk-testbench": "^0.1"
     },
     "autoload": {
