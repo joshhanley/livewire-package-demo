@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49ee185c4064ad56fc89b7899d468d73",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "f7c5aefbcb89bba2b17c5a873b6377ec",
+    "packages": [
         {
             "name": "brick/math",
             "version": "0.9.1",
@@ -725,16 +724,16 @@
         },
         {
             "name": "joshhanley/livewire-dusk-testbench",
-            "version": "dev-main",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:joshhanley/livewire-dusk-testbench.git",
-                "reference": "b3e57234652ddf84c42cf64ae5e16d42113c78cd"
+                "reference": "b1b995000622b306d9ffaf16fafad2fc314a2b66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joshhanley/livewire-dusk-testbench/zipball/b3e57234652ddf84c42cf64ae5e16d42113c78cd",
-                "reference": "b3e57234652ddf84c42cf64ae5e16d42113c78cd",
+                "url": "https://api.github.com/repos/joshhanley/livewire-dusk-testbench/zipball/b1b995000622b306d9ffaf16fafad2fc314a2b66",
+                "reference": "b1b995000622b306d9ffaf16fafad2fc314a2b66",
                 "shasum": ""
             },
             "require": {
@@ -743,7 +742,6 @@
                 "php": "^7.4",
                 "psy/psysh": "^0.10.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -761,15 +759,15 @@
             "authors": [
                 {
                     "name": "Josh Hanley",
-                    "email": "josh@hitsystems.com.au"
+                    "email": "josh@joshhanley.com.au"
                 }
             ],
             "description": "A Laravel Dusk testing helper for Livewire package development.",
             "support": {
-                "source": "https://github.com/joshhanley/livewire-dusk-testbench/tree/main",
+                "source": "https://github.com/joshhanley/livewire-dusk-testbench/tree/v0.1.0",
                 "issues": "https://github.com/joshhanley/livewire-dusk-testbench/issues"
             },
-            "time": "2021-01-10T20:53:49+00:00"
+            "time": "2021-01-12T02:32:18+00:00"
         },
         {
             "name": "konsulting/project-root",
@@ -7038,11 +7036,10 @@
             "time": "2020-07-08T17:02:28+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "joshhanley/livewire-dusk-testbench": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
