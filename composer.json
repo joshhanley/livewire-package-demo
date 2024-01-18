@@ -11,10 +11,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4"
+        "php": "^8.1"
     },
     "require-dev": {
-        "joshhanley/livewire-dusk-testbench": "^0.1.0"
+        "joshhanley/livewire-dusk-testbench": "^3.0.0-beta"
     },
     "autoload": {
         "psr-4": {

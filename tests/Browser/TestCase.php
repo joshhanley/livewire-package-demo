@@ -7,13 +7,13 @@ use LivewirePackageDemo\LivewirePackageDemoServiceProvider;
 
 class TestCase extends LivewireDuskTestbenchTestCase
 {
-    public $packageProviders = [
-        LivewirePackageDemoServiceProvider::class
+    public array $packageProviders = [
+        LivewirePackageDemoServiceProvider::class,
     ];
 
-    public function configureViewsDirectory()
+    public function configureViewsDirectory(): string
     {
         // Resolves to 'tests/Browser/views'
-        $this->viewsDirectory = __DIR__.'/views';
+        return __DIR__ . '/views';
     }
 }

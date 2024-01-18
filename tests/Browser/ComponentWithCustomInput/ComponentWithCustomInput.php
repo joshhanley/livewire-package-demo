@@ -12,7 +12,7 @@ class ComponentWithCustomInput extends Component
     {
         return <<<'HTML'
         <div>
-            <x-lw-pkg-demo::custom-input wire:model="name" />
+            <x-lw-pkg-demo::custom-input wire:model.live="name" />
         </div>
         HTML;
     }

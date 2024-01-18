@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit backupGlobals="false"
-         backupStaticAttributes="false"
-         bootstrap="vendor/autoload.php"
-         colors="true"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
-         processIsolation="false"
-         stopOnFailure="false"
-         verbose="true"
->
-    <testsuites>
-        <testsuite name="Browser">
-            <directory suffix="Test.php">./tests/Browser</directory>
-        </testsuite>
-        <!-- <testsuite name="Unit">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" bootstrap="vendor/autoload.php" colors="true" processIsolation="false" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.5/phpunit.xsd" cacheDirectory=".phpunit.cache" backupStaticProperties="false">
+  <testsuites>
+    <testsuite name="Browser">
+      <directory suffix="Test.php">./tests/Browser</directory>
+    </testsuite>
+    <!-- <testsuite name="Unit">
             <directory>./tests/Unit</directory>
         </testsuite> -->
-    </testsuites>
-    <php>
-        <env name="APP_KEY" value="base64:fLwuhEAfUmKELmXuPYMuDEQY7t3n8okE+Fi1+ey83DI="/>
-    </php>
+  </testsuites>
 </phpunit>
